@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "NouvelR";
+  src: url("../fonts/NouvelR-Regular.woff2");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.layout {
+  font-family: "NouvelR";
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(220.55deg, #7cf7ff 0%, #4b73ff 100%);
+  color: #cccccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-size: 2rem;
+}
+
+.login-register__layout {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.login__container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.register__container {
+  position: absolute;
+  right: -100%;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.register__btn,
+.login__btn {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #0089ed;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+}
+
+.login__input {
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.input__label {
+  color: #1f1f1f;
+  font-size: 1.8rem;
+}
+
+.input__login {
+  width: 300px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  padding: 0rem 2rem;
+  border: solid 1px #5895f5;
+}
+
+.sigin__title {
+  font-size: 3rem;
+  color: #1f1f1f;
+}
+
+.svg__input {
+  position: absolute;
+  z-index: 99;
+  width: 30px;
+  right: 10px;
+  top: 28px;
+}
